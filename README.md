@@ -14,7 +14,7 @@ For the **late** and **rush hour** transition matrices, we notica that the state
 
 - **Custom Initial State:**  
   The initial traffic state probabilities were changed from `[1, 0, 0]` (as in the original repo) to `[0.7, 0.2, 0.1]` to explore different starting conditions.  
-  **Note:** This does **not affect the steady-state probabilities** of the Markov chains, because steady states depend only on the transition matrices, not the initial state, because the stady probabilitiesdepend only on the transition matrix and not the intial state: πP=π
+  **Note:** This does **not affect the steady-state probabilities** of the Markov chains, because steady states depend only on the transition matrices, not the initial state πP=π
 
 # Monte Carlo
 ## Early:
